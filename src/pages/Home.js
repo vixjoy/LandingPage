@@ -1,16 +1,19 @@
 import React from 'react';
+import pic from '../image/Victoira_Microsoft.jpg';
   
 const Home = () => {
   return (
     <div
       style={{
+        backgroundImage: `url(${pic})`,
+        backgroundRepeat: "no-repeat",
         display: 'flex',
-        justifyContent: 'Right',
+        justifyContent: 'Center',
         alignItems: 'Right',
-        height: '100vh'
+        height: '100vh',
       }}
     >
-      <h1>Welcome to GeeksforGeeks</h1>
+      <h1>Hello World</h1>
     </div>
   );
 };
