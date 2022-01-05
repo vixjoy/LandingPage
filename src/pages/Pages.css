@@ -1,0 +1,14 @@
+body {
+    background-image: url('../image/Victoira_Microsoft.jpg');
+    background-position-y: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width:fit-content;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 10ch; 
+}
+

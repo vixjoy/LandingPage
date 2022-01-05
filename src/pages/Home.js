@@ -1,19 +1,13 @@
 import React from 'react';
-import pic from '../image/Victoira_Microsoft.jpg';
+import style from './Pages.css';
   
 const Home = () => {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${pic})`,
-        backgroundRepeat: "no-repeat",
-        display: 'flex',
-        justifyContent: 'Center',
-        alignItems: 'Right',
-        height: '100vh',
-      }}
-    >
-      <h1>Hello World</h1>
+    <div>
+      <link rel="stylesheet" href={style}/>
+      <h1>
+        Hello World
+      </h1>
     </div>
   );
 };
