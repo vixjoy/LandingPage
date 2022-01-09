@@ -1,15 +1,10 @@
 import React from 'react'
+import style from './Pages.css';
 
 function Contact() {
     return (
-        <div
-            style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh'
-            }}
-        >
+        <div>
+           <link rel="stylesheet" href={style}/>
            <h1>Contact Us</h1> 
         </div>
     );

@@ -1,16 +1,11 @@
 import React from "react";
+import style from './Pages.css';
 
 const About = () => {
     return (
-        <div
-            style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh'
-            }}
-        >
-            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, totam.</h1>
+        <div>
+            <link rel="stylesheet" href={style}/>
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
         </div>
     );
 };
